@@ -16,7 +16,6 @@ public class AttackingSystem {
                         magicNum = random.nextInt(10)+1;
                     if(magicNum==5){
                         System.out.println("Disaster in house");
-                        countOfHitsOnMouse ++;
                     }else {
                         System.out.println("Success attack");
                         countOfHitsOnMouse ++;
